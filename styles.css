@@ -21,6 +21,7 @@ body {
 }
 
 .sidebar {
+    z-index : 3;
     color : white;
     font-weight : bold;
     background-color: var(--secondary-blue);
@@ -61,6 +62,8 @@ body {
 }
 
 .header {
+    box-shadow: 0px 3px 8px rgb(168, 168, 168);
+    z-index: 2;
     font-weight : bold;
     background-color: white;
 }
@@ -197,7 +200,7 @@ body {
     display : grid;
     grid-template-columns : 2.5fr 1fr; 
     grid-template-rows : auto 1fr;
-    padding : 30px 20px 60px;
+    padding : 35px 20px 60px;
 }
 
 .content h2 {
